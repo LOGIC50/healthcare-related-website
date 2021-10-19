@@ -1,0 +1,14 @@
+.main-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .main-img img {
+    width: 100%;
+  }
+}
+.headerpart {
+  font-size: 100px;
+  color: darkblue;
+}

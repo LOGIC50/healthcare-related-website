@@ -1,0 +1,17 @@
+.service img {
+  width: 100%;
+  margin: auto;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+.service {
+  background-color: rgb(240, 234, 234);
+  margin: 30px 30px;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .service {
+    margin: 10px 10px;
+  }
+}

@@ -1,3 +1,7 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +38,20 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.site-container {
+  width: 70%;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .site-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .site-container {
+    width: 100%;
   }
 }
