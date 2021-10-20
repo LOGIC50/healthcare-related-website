@@ -100,13 +100,13 @@ const Login = () => {
     }
 
     return (
-        <div className="mx-auto mt-5 p-3 text-start w-50 border border-secondary login-form">
+        <div className="mx-auto mt-5 p-3 border border-secondary text-start w-50  login-form">
       <form onSubmit={handleRegistration}>
         <h3 className="text-primary text-center">Please {isLogin ? 'Login' : 'Register'}</h3>
         {!isLogin && <div className="row mb-3">
           <label htmlFor="inputName" className="col-sm-2 col-form-label">Name</label>
           <div className="col-sm-10">
-            <input type="text" onBlur={handleNameChange} className="form-control" id="inputName" placeholder="Your Name" />
+            <input type="text" onBlur={handleNameChange} className="form-control" id="inputName" placeholder="Your Name " />
           </div>
         </div>}
         <div className="row mb-3">

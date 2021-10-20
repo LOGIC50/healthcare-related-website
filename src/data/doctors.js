@@ -1,4 +1,3 @@
-// Fake data for doctors description...!
 const doctors = [
     {
         id: 1,
