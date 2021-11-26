@@ -1,4 +1,4 @@
-
+// import everything
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Departments from './components/Departments/Departments';
